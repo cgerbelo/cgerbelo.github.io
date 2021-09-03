@@ -3,42 +3,18 @@
 = Cédric Gerbelot
 
 ~~~
-{}{img_left}{photo2.jpg}{}{350px}{}{}
+{}{img_left}{photo1.jpg}{}{350px}{}{}
 
 == Briefly
-I am a last-year Ph.D. student under the supervision of [http://www.di.ens.fr/~fbach/ Francis Bach] and [http://pierre.gaillard.me/ Pierre Gaillard]. I work in the [https://www.di.ens.fr/sierra/ SIERRA team] in Paris, which is a joint team between [https://www.inria.fr/centre/paris INRIA Paris], [https://www.di.ens.fr/ ENS Paris] and [http://www.cnrs.fr/fr/page-daccueil CNRS].
+I am a second-year PhD student working under the supervision of Florent Krzakala (EPFL, ENS) and Marc Lelarge (INRIA, ENS). I am interested in high-dimensional probability, optimization and statistical physics.
 
-My research interests lie mainly within statistics, optimization and probability theory. More precisely, my current work studies the stochastic gradient descent algorithm for the interpolation of a function and the gossip algorithm for averaging values in a communication network. Before that, I worked under the supervision of [https://web.stanford.edu/~montanar/ Andrea Montanari] to develop a rigorous analysis of the Approximate Message Passing algorithms in the case of non-separable denoisers.
-
-Here is a short [cv_english.pdf CV].
+Here is a short [cv_latest.pdf CV].
 
 == Contact
 
-- E-mail: raphael \[dot\] berthier \[at\] inria \[dot\] fr \n\
-In the perspective of making research more self-critical, I welcome any comments, reviews, critiques, or suggestions on my work.
-- Physical address: INRIA Paris, 4th floor, Office C406, [https://www.google.fr/maps?q=2+rue+Simone+Iff,+75012+Paris&um=1&ie=UTF-8&sa=X&ved=0ahUKEwiHscbX49LbAhUFchQKHRTfDbUQ_AUICigB 2 rue Simone Iff, 75012 Paris].
+- E-mail: cedric \[dot\] gerbelot \[at\] ens \[dot\] fr \n\
+- Physical address: Ecole Normale Supérieure, 24 rue Lhomond
 
 ~~~
 
 == Publications and Preprints
-
-- M. Even, R. Berthier, F. Bach, N. Flammarion, P. Gaillard, H. Hendrikx, L. Massoulié, A. Taylor. *A Continuized View on Nesterov Acceleration for Stochastic Gradient Descent and Randomized Gossip*, 2021, preprint. \n\[[https://arxiv.org/abs/2106.07644 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
-\<div class=\"toggle-wrap\"\>
-*Abstract:* We introduce the continuized Nesterov acceleration, a close variant of Nesterov acceleration whose variables are indexed by a continuous time parameter. The two variables continuously mix following a linear ordinary differential equation and take gradient steps at random times. This continuized variant benefits from the best of the continuous and the discrete frameworks: as a continuous process, one can use differential calculus to analyze convergence and obtain analytical expressions for the parameters; and a discretization of the continuized process can be computed exactly with convergence rates similar to those of Nesterov original acceleration. We show that the discretization has the same structure as Nesterov acceleration, but with random parameters. We provide continuized Nesterov acceleration under deterministic as well as stochastic gradients, with either additive or multiplicative noise. Finally, using our continuized framework and expressing the gossip averaging problem as the stochastic minimization of a certain energy function, we provide the first rigorous acceleration of asynchronous gossip algorithms. 
-\<\/div\>
-
-- R. Berthier, F. Bach, P. Gaillard. *Tight Nonparametric Convergence Rates for Stochastic Gradient Descent under the Noiseless Linear Model*, 2020, Advances in Neural Information Processing Systems (NeurIPS). \n\[[https://papers.nips.cc/paper/2020/hash/1b33d16fc562464579b7199ca3114982-Abstract.html conference version], [https://hal.archives-ouvertes.fr/hal-02866755 hal], [https://arxiv.org/abs/2006.08212 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
-\<div class=\"toggle-wrap\"\>
-*Abstract:* In the context of statistical supervised learning, the noiseless linear model assumes that there exists a deterministic linear relation $Y = \langle \theta_*, X \rangle$ between the random output $Y$ and the random feature vector $\Phi(U)$, a potentially non-linear transformation of the inputs $U$. We analyze the convergence of single-pass, fixed step-size stochastic gradient descent on the least-square risk under this model. The convergence of the iterates to the optimum $\theta_*$ and the decay of the generalization error follow polynomial convergence rates with exponents that both depend on the regularities of the optimum $\theta_*$ and of the feature vectors $\Phi(U)$. We interpret our result in the reproducing kernel Hilbert space framework; as a special case, we analyze an online algorithm for estimating a real function on the unit interval from the noiseless observation of its value at randomly sampled points. The convergence depends on the Sobolev smoothness of the function and of a chosen kernel. Finally, we apply our analysis beyond the supervised learning setting to obtain convergence rates for the averaging process (a.k.a. gossip algorithm) on a graph depending on its spectral dimension. 
-\<\/div\>
-
-- R. Berthier, F. Bach, P. Gaillard. *Accelerated Gossip in Networks of Given Dimension using Jacobi Polynomial Iterations*, 2020, /SIAM Journal on Mathematics of Data Science (SIMODS)/. \n\[[papers/accelerated_gossip_merged.pdf journal], [https://hal.archives-ouvertes.fr/hal-01797016/ hal], [https://arxiv.org/abs/1805.08531 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
-\<div class=\"toggle-wrap\"\>
-*Abstract:* Consider a network of agents connected by communication links, where each agent holds a real value. The gossip problem consists in estimating the average of the values diffused in the network in a distributed manner. We develop a method solving the gossip problem that depends only on the spectral dimension of the network, that is, in the communication network set-up, the dimension of the space in which the agents live. This contrasts with previous work that required the spectral gap of the network as a parameter, or suffered from slow mixing. Our method shows an important improvement over existing algorithms in the non-asymptotic regime, i.e., when the values are far from being fully mixed in the network. Our approach stems from a polynomial-based point of view on gossip algorithms, as well as an approximation of the spectral measure of the graphs with a Jacobi measure. We show the power of the approach with simulations on various graphs, and with performance guarantees on graphs of known spectral dimension, such as grids and random percolation bonds. An extension of this work to distributed Laplacian solvers is discussed. As a side result, we also use the polynomial-based point of view to show the convergence of the message passing algorithm for gossip of Moallemi \& Van Roy on regular graphs. The explicit computation of the rate of the convergence shows that message passing has a slow rate of convergence on graphs with small spectral gap. 
-\<\/div\>
-
-- R. Berthier, A. Montanari, P.-M. Nguyen. *State Evolution for Approximate Message Passing with Non-Separable Functions*, 2017, /Information and Inference: a Journal of the IMA/. \n\[[https://doi.org/10.1093/imaiai/iay021 journal], [https://arxiv.org/abs/1708.03950 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
-\<div class=\"toggle-wrap\"\>
-*Abstract:* Given a high-dimensional data matrix $A \in {\rm I\!R}^{n \times m}$, Approximate Message Passing (AMP) algorithms construct sequences of vectors $u^t \in {\rm I\!R}^n$, $v^t \in {\rm I\!R}^m$, indexed by $t \in \{0,1,2,\dots \}$ by iteratively applying $A$ or $A^T$, and suitable non-linear functions, which depend on the specific application. Special instances of this approach have been developed --among other applications-- for compressed sensing reconstruction, robust regression, Bayesian estimation, low-rank matrix recovery, phase retrieval, and community detection in graphs. For certain classes of random matrices $A$, AMP admits an asymptotically exact description in the high-dimensional limit $m,n\to \infty$, which goes under the name of `state evolution.'
-Earlier work established state evolution for separable non-linearities (under certain regularity conditions). Nevertheless, empirical work demonstrated several important applications that require non-separable functions. In this paper we generalize state evolution to Lipschitz continuous non-separable nonlinearities, for Gaussian matrices $A$. Our proof makes use of Bolthausen's conditioning technique along with several approximation arguments. In particular, we introduce a modified algorithm (called LAMP for Long AMP) which is of independent interest. 
-\<\/div\>
