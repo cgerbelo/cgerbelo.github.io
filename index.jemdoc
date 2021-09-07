@@ -6,7 +6,7 @@
 {}{img_left}{photo1.jpg}{}{350px}{}{}
 
 == Briefly
-I am a second-year PhD student at Ecole Normale Supérieure under the supervision of Florent Krzakala (EPFL, ENS) and Marc Lelarge (INRIA, ENS). I work at the interface between theoretical machine learning and mathematical physics. More precisely, I am interested in high-dimensional probability, optimization and mathematical methods inspired by statistical mechanics.
+I am a second-year PhD student at Ecole Normale Supérieure de Paris under the supervision of [https://florentkrzakala.com/ Florent Krzakala] (EPFL, ENS) and [https://www.di.ens.fr/~lelarge/ Marc Lelarge] (INRIA, ENS). I work at the interface between theoretical machine learning and mathematical physics. More precisely, I am interested in high-dimensional probability, optimization and mathematical methods inspired by statistical mechanics.
 
 Here is a short [cv_latest.pdf CV].
 
@@ -37,15 +37,21 @@ Here is a short [cv_latest.pdf CV].
 *Abstract:* There has been a recent surge of interest in the study of asymptotic reconstruction performance in various cases of generalized linear estimation problems in the teacher-student setting, especially for the case of i.i.d standard normal matrices. Here, we go beyond these matrices, and prove an analytical formula for the reconstruction performance of convex generalized linear models with rotationally-invariant data matrices with arbitrary bounded spectrum, rigorously confirming a conjecture originally derived using the replica method from statistical physics. The formula includes many problems such as compressed sensing or sparse logistic classification. The proof is achieved by leveraging on message passing algorithms and the statistical properties of their iterates, allowing to characterize the asymptotic empirical distribution of the estimator. Our proof is crucially based on the construction of converging sequences of an oracle multi-layer vector approximate message passing algorithm, where the convergence analysis is done by checking the stability of an equivalent dynamical system. We illustrate our claim with numerical examples on mainstream learning methods such as sparse logistic regression and linear support vector classifiers, showing excellent agreement between moderate size simulation and the asymptotic prediction.
 \<\/div\>
 
-- Gerbelot, C., Abbara, A., \& Krzakala, F. *Asymptotic errors for convex penalized linear regression beyond Gaussian matrices*, Conference On Learning Theory (COLT) 2020. PMLR, vol 125,1682-1713 \n\[[https://arxiv.org/abs/2002.04372 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\>
+- Gerbelot, C., Abbara, A., \& Krzakala, F. *Asymptotic errors for convex penalized linear regression beyond Gaussian matrices*, Conference On Learning Theory (COLT) 2020. PMLR, vol 125,1682-1713 \n\[[[https://arxiv.org/abs/2002.04372 arXiv], journal][https://arxiv.org/abs/2002.04372 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\>
 \<div class=\"toggle-wrap\"\>
-*Abstract:* 
+*Abstract:* blablabla
 \<\/div\>
 
-- Ilton, M., Couchman, M. M., Gerbelot, C., Benzaquen, M., Fowler, P. D., Stone, H. A., ... \& Salez, T. *Capillary leveling of freestanding liquid nanofilms*, 2016, Physical review letters, 117(16), 167801. \n\[[https://arxiv.org/abs/1602.05538 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\>
+- Ilton, M., Couchman, M. M., Gerbelot, C., Benzaquen, M., Fowler, P. D., Stone, H. A., ... \& Salez, T. *Capillary leveling of freestanding liquid nanofilms*, 2016, Physical review letters, 117(16), 167801. \n\[https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.117.167801 journal], [https://arxiv.org/abs/1602.05538 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\>
 \<div class=\"toggle-wrap\"\>
 *Abstract:* We report on the capillary-driven levelling of a topographical perturbation at the surface of a free-standing liquid nanofilm. The width of a stepped surface profile is found to evolve as the square root of time. The hydrodynamic model is in excellent agreement with the experimental data. In addition to exhibiting an analogy with diffusive processes, this novel system serves as a precise nanoprobe for the rheology of liquids at interfaces in a configuration that avoids substrate effects.
 \<\/div\>
+
+- M. Even, R. Berthier, F. Bach, N. Flammarion, P. Gaillard, H. Hendrikx, L. Massoulié, A. Taylor. *A Continuized View on Nesterov Acceleration for Stochastic Gradient Descent and Randomized Gossip*, 2021, preprint. \n\[[https://arxiv.org/abs/2106.07644 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\>
+\<div class=\"toggle-wrap\"\>
+*Abstract:* We introduce the continuized Nesterov acceleration, a close variant of Nesterov acceleration whose variables are indexed by a continuous time parameter. The two variables continuously mix following a linear ordinary differential equation and take gradient steps at random times. This continuized variant benefits from the best of the continuous and the discrete frameworks: as a continuous process, one can use differential calculus to analyze convergence and obtain analytical expressions for the parameters; and a discretization of the continuized process can be computed exactly with convergence rates similar to those of Nesterov original acceleration. We show that the discretization has the same structure as Nesterov acceleration, but with random parameters. We provide continuized Nesterov acceleration under deterministic as well as stochastic gradients, with either additive or multiplicative noise. Finally, using our continuized framework and expressing the gossip averaging problem as the stochastic minimization of a certain energy function, we provide the first rigorous acceleration of asynchronous gossip algorithms.
+\<\/div\>
+
 == Talks
 
 == Reviewing
