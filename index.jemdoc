@@ -39,7 +39,7 @@ Here is a short [cv_latest.pdf CV].
 
 - Gerbelot, C., Abbara, A., \& Krzakala, F. *Asymptotic errors for convex penalized linear regression beyond Gaussian matrices*, Conference On Learning Theory (COLT) 2020. PMLR, vol 125,1682-1713 \n\[[[https://arxiv.org/abs/2002.04372 journal], [https://arxiv.org/abs/2002.04372 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\>
 \<div class=\"toggle-wrap\"\>
-*Abstract:* We consider the problem of learning a coefficient vector $ x_0 \in {\rm I\!R}^{N}$ from noisy linear observations $y = Fx_{0}+w \in {\rm I\!R}^{M}$ in the high dimensional limit $M,N \to \infty$ with $\alpha \equiv M/N$ fixed. We provide a rigorous derivation of an explicit formula ---first conjectured using heuristic methods from statistical physics--- for the asymptotic mean squared error obtained by penalized convex regression estimators such as the LASSO or the elastic net, for a class of very generic random matrices corresponding to rotationally invariant data matrices with arbitrary spectrum. The proof is based on a convergence analysis of an oracle version of vector approximate message-passing (oracle-VAMP) and on the properties of its state evolution equations. Our method leverages on and highlights the link between vector approximate message-passing, Douglas-Rachford splitting and proximal descent algorithms, extending previous results obtained with i.i.d. matrices for a large class of problems. We illustrate our results on some concrete examples and show that even though they are asymptotic, our predictions agree remarkably well with numerics even for very moderate sizes.
+*Abstract:* We consider the problem of learning a coefficient vector $x_0 \in {\rm I\!R}^{N}$ from noisy linear observations $y = Fx_{0}+w \in {\rm I\!R}^{M}$ in the high dimensional limit $M,N \to \infty$ with $\alpha \equiv M/N$ fixed. We provide a rigorous derivation of an explicit formula ---first conjectured using heuristic methods from statistical physics--- for the asymptotic mean squared error obtained by penalized convex regression estimators such as the LASSO or the elastic net, for a class of very generic random matrices corresponding to rotationally invariant data matrices with arbitrary spectrum. The proof is based on a convergence analysis of an oracle version of vector approximate message-passing (oracle-VAMP) and on the properties of its state evolution equations. Our method leverages on and highlights the link between vector approximate message-passing, Douglas-Rachford splitting and proximal descent algorithms, extending previous results obtained with i.i.d. matrices for a large class of problems. We illustrate our results on some concrete examples and show that even though they are asymptotic, our predictions agree remarkably well with numerics even for very moderate sizes.
 \<\/div\>
 
 - Ilton, M., Couchman, M. M., Gerbelot, C., Benzaquen, M., Fowler, P. D., Stone, H. A., ... \& Salez, T. *Capillary leveling of freestanding liquid nanofilms*, 2016, Physical review letters, 117(16), 167801. \n\[[https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.117.167801 journal], [https://arxiv.org/abs/1602.05538 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\>
@@ -47,7 +47,17 @@ Here is a short [cv_latest.pdf CV].
 *Abstract:* We report on the capillary-driven levelling of a topographical perturbation at the surface of a free-standing liquid nanofilm. The width of a stepped surface profile is found to evolve as the square root of time. The hydrodynamic model is in excellent agreement with the experimental data. In addition to exhibiting an analogy with diffusive processes, this novel system serves as a precise nanoprobe for the rheology of liquids at interfaces in a configuration that avoids substrate effects.
 \<\/div\>
 
-== Talks
+== Some talks, seminars and posters
+
+- Isaac Newton Institute for Mathematical Science, Theory of Deep Learning workshop, August 2021 - *Capturing the learning curves of realistic data sets with a teacher-student model* [poster_newton.pdf Poster]
+- ICTP Youth in High Dimensions conference, July 2021 - *Beyond i.i.d. Gaussian models : exact asymptotics with realistic data* [Gerbelot_conf_ICTP_2021.pdf Slides]
+- EPFL group seminar, June 2021  - *Learning Gaussian mixtures with Generalized Linear Models* [Golosino_Multiclass.pdf Slides]
+- Les Houches Summer School on Statistical Physics and Machine Learning, August 2020 - *How to prove Kabashima's replica formula* [Les_Houches_talk_13min-1.pdf Slides]
+- ICTP seminar, April 2020,  *Rigorous results of statistical physics of simple machine learning models* [Talk_Jean_GLM_orth_inv.pdf Slides]
+- Conference on Learning Theory, July 2020, *Asymptotic errors for convex penalized linear regression beyond Gaussian matrices* [Talk_COLT_2020_15min.pdf Slides]
+- (Golosino seminar, Ecole Normale Superieure, November 2020  *Asymptotic errors for convex penalized linear regression beyond Gaussian matrices*)
+- Seminar at NTT Basic Research Labs, Japan, 2018 *Full Counting statistics of Electron Transport in a Biological Motor* [SSDM2018_Abstract.pdf Summary]
+- Seminar at Gulliver Laboratory, ESPCI, Paris, 2016 *Capillary leveling of freestanding liquid nanofilms*
 
 == Reviewing
 
