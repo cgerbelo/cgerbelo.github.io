@@ -47,11 +47,6 @@ Here is a short [cv_latest.pdf CV].
 *Abstract:* We report on the capillary-driven levelling of a topographical perturbation at the surface of a free-standing liquid nanofilm. The width of a stepped surface profile is found to evolve as the square root of time. The hydrodynamic model is in excellent agreement with the experimental data. In addition to exhibiting an analogy with diffusive processes, this novel system serves as a precise nanoprobe for the rheology of liquids at interfaces in a configuration that avoids substrate effects.
 \<\/div\>
 
-- M. Even, R. Berthier, F. Bach, N. Flammarion, P. Gaillard, H. Hendrikx, L. Massoulié, A. Taylor. *A Continuized View on Nesterov Acceleration for Stochastic Gradient Descent and Randomized Gossip*, 2021, preprint. \n\[[https://arxiv.org/abs/2106.07644 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\>
-\<div class=\"toggle-wrap\"\>
-*Abstract:* We introduce the continuized Nesterov acceleration, a close variant of Nesterov acceleration whose variables are indexed by a continuous time parameter. The two variables continuously mix following a linear ordinary differential equation and take gradient steps at random times. This continuized variant benefits from the best of the continuous and the discrete frameworks: as a continuous process, one can use differential calculus to analyze convergence and obtain analytical expressions for the parameters; and a discretization of the continuized process can be computed exactly with convergence rates similar to those of Nesterov original acceleration. We show that the discretization has the same structure as Nesterov acceleration, but with random parameters. We provide continuized Nesterov acceleration under deterministic as well as stochastic gradients, with either additive or multiplicative noise. Finally, using our continuized framework and expressing the gossip averaging problem as the stochastic minimization of a certain energy function, we provide the first rigorous acceleration of asynchronous gossip algorithms.
-\<\/div\>
-
 == Talks
 
 == Reviewing
