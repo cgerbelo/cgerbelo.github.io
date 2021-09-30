@@ -34,6 +34,14 @@
 <h2>Publications and Preprints</h2>
 <p>You can also find my publications on <a href="https://scholar.google.com/citations?user=Ct53LHIAAAAJ&amp;hl=fr">Google Scholar</a>, and some code on <a href="https://github.com/cgerbelo">Github</a>.</p>
 <ul>
+<li><p>Gerbelot, C. and Berthier, R. <b>Graph-based Approximate Message Passing Iterations</b>, 2021, preprint.
+<br />[[https:<i></i>arxiv.org<i>abs</i>2109.11905] <span class="toggle-trigger">[Show Abstract]<span>
+<div class="toggle-wrap">
+<b>Abstract:</b> Approximate-message passing (AMP) algorithms have become an important element of high-dimensional statistical inference, mostly due to their adaptability and concentration properties, the state evolution (SE) equations. This is demonstrated by the growing number of new iterations proposed for increasingly complex problems, ranging from multi-layer inference to low-rank matrix estimation with elaborate priors. In this paper, we address the following questions: is there a structure underlying all AMP iterations that unifies them in a common framework? Can we use such a structure to give a modular proof of state evolution equations, adaptable to new AMP iterations without reproducing each time the full argument ? We propose an answer to both questions, showing that AMP instances can be generically indexed by an oriented graph. This enables to give a unified interpretation of these iterations, independent from the problem they solve, and a way of composing them arbitrarily. We then show that all AMP iterations indexed by such a graph admit rigorous SE equations, extending the reach of previous proofs, and proving a number of recent heuristic derivations of those equations. Our proof naturally includes non-separable functions and we show how existing refinements, such as spatial coupling or matrix-valued variables, can be combined with our framework.
+</div></p>
+</li>
+</ul>
+<ul>
 <li><p>Loureiro, B., Sicuro, G., Gerbelot, C.,Pacco, A., Krzakala, F, Zdeborova, L. <b>Learning Gaussian Mixtures with Generalized Linear Models : Precise Asymptotics in High-dimensions</b>, 2021, preprint. <br />[<a href="https://arxiv.org/abs/2106.03791">arXiv</a>] <span class="toggle-trigger">[Show Abstract]<span>
 <div class="toggle-wrap">
 <b>Abstract:</b> Generalised linear models for multi-class classification problems are one of the fundamental building blocks of modern machine learning tasks. In this manuscript, we characterise the learning of a mixture of <img class="eq" src="eqs/9600028874-130.png" alt="K" style="vertical-align: -0px" /> Gaussians with generic means and covariances via empirical risk minimisation (ERM) with any convex loss and regularisation. In particular, we prove exact asymptotics characterising the ERM estimator in high-dimensions, extending several previous results about Gaussian mixture classification in the literature. We exemplify our result in two tasks of interest in statistical learning: a) classification for a mixture with sparse means, where we study the efficiency of <img class="eq" src="eqs/7513213165401213731-130.png" alt="l_1" style="vertical-align: -3px" /> penalty with respect to <img class="eq" src="eqs/7513213165401213728-130.png" alt="l_2" style="vertical-align: -3px" />; b) max-margin multi-class classification, where we characterise the phase transition on the existence of the multi-class logistic maximum likelihood estimator for <img class="eq" src="eqs/7779556930681419564-130.png" alt="K&gt;2" style="vertical-align: -1px" />. Finally, we discuss how our theory can be applied beyond the scope of synthetic data, showing that in different cases Gaussian mixtures capture closely the learning curve of classification tasks in real data sets.
@@ -73,9 +81,11 @@ generalisation of the model where the teacher and student can act on different s
 </ul>
 <h2>Some talks, seminars and posters</h2>
 <ul>
+<li><p>CIRM workshop &ldquo;On Future Synergies for Stochastic and Learning Algorithms&rdquo;, September 2021 - <b>Graph-based Approximate Message Passing Iterations</b> <a href="poster_CIRM.pdf">Poster</a></p>
+</li>
 <li><p>Isaac Newton Institute for Mathematical Science, Theory of Deep Learning workshop, August 2021 - <b>Capturing the learning curves of realistic data sets with a teacher-student model</b> <a href="poster_newton.pdf">Poster</a></p>
 </li>
-<li><p>ICTP Youth in High Dimensions conference, July 2021 - <b>Beyond i.i.d. Gaussian models : exact asymptotics with realistic data</b> <a href="Gerbelot_ICTP_conf_2021.pdf">Slides</a>, <a href="https://www.youtube.com/watch?v=ZD-LwkQ57dQ,">Video</a></p>
+<li><p>ICTP Youth in High Dimensions conference, July 2021 - <b>Beyond i.i.d. Gaussian models : exact asymptotics with realistic data</b> <a href="Gerbelot_conf_ICTP_2021.pdf">Slides</a>, <a href="https://www.youtube.com/watch?v=ZD-LwkQ57dQ,">Video</a></p>
 </li>
 <li><p>EPFL group seminar, June 2021  - <b>Learning Gaussian mixtures with Generalized Linear Models</b> <a href="Golosino_Multiclass.pdf">Slides</a></p>
 </li>
@@ -103,25 +113,11 @@ generalisation of the model where the teacher and student can act on different s
 </ul>
 <div id="footer">
 <div id="footer-text">
-Page generated 2021-09-08 18:25:05 CEST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2021-09-30 19:18:15 CEST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
 </tr>
 </table>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-$(document).ready(function() {
-    $(".toggle-trigger").click(function() {
-        $(this).parent().nextAll('.toggle-wrap').first().slideToggle('slow');
-    });
-});
-</script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128753599-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 </body>
 </html>
