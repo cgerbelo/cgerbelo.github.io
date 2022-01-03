@@ -55,6 +55,7 @@ You can also find my publications on [https://scholar.google.com/citations?user=
 \<\/div\>
 
 == Some talks, seminars and posters
+- Neurips@Paris 2021 - "Learning Gaussian Mixtures with Generalised Linear Models: Precise Asymptotics in High-dimensions" (15min Spotlight talk)
 - CIRM workshop "On Future Synergies for Stochastic and Learning Algorithms", September 2021 - *Graph-based Approximate Message Passing Iterations* [poster_CIRM.pdf Poster]
 - Isaac Newton Institute for Mathematical Science, Theory of Deep Learning workshop, August 2021 - *Capturing the learning curves of realistic data sets with a teacher-student model* [poster_newton.pdf Poster]
 - ICTP Youth in High Dimensions conference, July 2021 - *Beyond i.i.d. Gaussian models : exact asymptotics with realistic data* [Gerbelot_ICTP_conf_2021.pdf Slides], [https://www.youtube.com/watch?v=ZD-LwkQ57dQ, Video]
@@ -70,4 +71,6 @@ You can also find my publications on [https://scholar.google.com/citations?user=
 
  - Journal of Statistical Mechanics, Theory and Experiment (JSTAT) \<\/div\>
  - IEEE Transactions on Information Theory \<\/div\>
+ - The Annals of Statistics \<\/div\>
  - Advances in Neural Information Processing Systems (Neurips, 2021-) \<\/div\>
+ - International Conference on Machine Learning (ICML, 2022-) \<\/div\>
